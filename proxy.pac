@@ -1,12 +1,9 @@
-var __PROXY__ = 'PROXY 127.0.0.1:1080;';
 // RU-PAC anti-censorship in Russian Federation host File
 // Generated on Sat, 23 Nov 2024 00:38:59 +0000, by https://bitbucket.org/anticensority/antizapret-pac-generator-light/
 // THIS FILE IS NEITHER OBFUSCATED NOR ENCRYPTED, IT'S COMPRESSED TO COMPLY WITH BROWSER PAC FILE SIZE LIMITS.
 
 domains = {
 "":{0:0},
-"youtube": {2:6, 3:3},
-"googlevideo": {2:6, 3:3},
 "dog":{2:6,3:3},
 "porn":{2:6,3:15,4:32,5:65,6:18,7:14,8:8,9:18,11:11},
 "gdn":{2:2,3:3,4:4,6:6,7:7},
@@ -821,6 +818,11 @@ function a2b(a) {
 }
 
 function FindProxyForURL(url, host) {
+
+  if (shExpMatch(host, "*.youtube.com") || shExpMatch(host, "*.ytimg.com") || shExpMatch(host, "*.googlevideo.com")) {
+    return "SOCKS5 127.0.0.1:1080";  // Прокси-сервер для VPN
+  }
+
   if (domains.length < 10) return "DIRECT"; // list is broken
 
   if (!('indexOf' in Array.prototype)) {
