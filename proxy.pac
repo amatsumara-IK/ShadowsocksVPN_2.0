@@ -885,8 +885,8 @@ function FindProxyForURL(url, host) {
   // remove leading www
   shost = shost.replace(/^www\.(.+)/, "$1");
 
-  fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com',
-          'facebook.com', 'fbcdn.net',
+  fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com', 'grok.com', 'chatgpt.com',
+          'facebook.com',
           'instagram.com', 'cdninstagram.com',
           'fb.com', 'messenger.com',
           'ytimg.com', 'youtube.com', 'googleapis.com', 'gstatic.com', 'l.google.com', 'ggpht.com', 'googleusercontent.com', 'youtu.be', 'redirector.googlevideo.com'
