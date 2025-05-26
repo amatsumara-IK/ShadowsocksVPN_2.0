@@ -886,7 +886,7 @@ function FindProxyForURL(url, host) {
   shost = shost.replace(/^www\.(.+)/, "$1");
 
   fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com', 'chatgpt.com', 'sora.chatgpt.com',
-          'facebook.com',
+          'facebook.com', 'notion.so',
           'instagram.com', 'cdninstagram.com',
           'fb.com', 'grok.com', 'accounts.x.ai',
           'ytimg.com', 'youtube.com', 'googleapis.com', 'gstatic.com', 'l.google.com', 'ggpht.com', 'googleusercontent.com', 'youtu.be', 'redirector.googlevideo.com'
