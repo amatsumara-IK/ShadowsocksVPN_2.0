@@ -888,7 +888,7 @@ function FindProxyForURL(url, host) {
   fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com', 'chatgpt.com', 'sora.chatgpt.com',
           'facebook.com', 'notion.so', 'copilot.microsoft.com', 'microsoft.com',
           'instagram.com', 'cdninstagram.com',
-          'fb.com', 'grok.com', 'accounts.x.ai', 'gemini.google.com',
+          'fb.com', 'grok.com', 'accounts.x.ai', 'gemini.google.com', 'share.note.sx', 'share.note',
           'ytimg.com', 'youtube.com', 'googleapis.com', 'gstatic.com', 'l.google.com', 'ggpht.com', 'googleusercontent.com', 'youtu.be', 'redirector.googlevideo.com'
           ];
   if (fbtw.indexOf(shost) !== -1) {
