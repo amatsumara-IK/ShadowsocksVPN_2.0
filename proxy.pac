@@ -885,10 +885,10 @@ function FindProxyForURL(url, host) {
   // remove leading www
   shost = shost.replace(/^www\.(.+)/, "$1");
 
-  fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com', 'chatgpt.com', 'sora.chatgpt.com', 'anyclass.atlassian.net',
+  fbtw = ['twitter.com', 'twimg.com', 't.co', 'x.com', 'chatgpt.com', 'sora.chatgpt.com', 'anyclass.atlassian.net', 'my.stripo.email',
           'facebook.com', 'notion.so', 'copilot.microsoft.com', 'microsoft.com',
           'instagram.com', 'cdninstagram.com',
-          'fb.com', 'grok.com', 'accounts.x.ai', 'gemini.google.com', 'share.note.sx', 'share.note',
+          'fb.com', 'grok.com', 'accounts.x.ai', 'gemini.google.com', 'share.note',
           'ytimg.com', 'youtube.com', 'googleapis.com', 'gstatic.com', 'l.google.com', 'ggpht.com', 'googleusercontent.com', 'youtu.be', 'redirector.googlevideo.com'
           ];
   if (fbtw.indexOf(shost) !== -1) {
