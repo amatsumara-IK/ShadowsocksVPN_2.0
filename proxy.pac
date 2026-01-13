@@ -198,7 +198,10 @@ function FindProxyForURL(url, host) {
     "static.note.sx",     
     "obsidian.md",        
     "obsidian-releases.com", 
-    "raw.githubusercontent.com"
+    "raw.githubusercontent.com",
+
+
+    "app.4dev.com"
    ];
 
     // 3. ЛОГИКА ПРОВЕРКИ (Не меняйте этот блок)
