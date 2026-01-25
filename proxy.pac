@@ -201,7 +201,9 @@ function FindProxyForURL(url, host) {
     "raw.githubusercontent.com",
 
 
-    "app.4dev.com"
+    "app.4dev.com",
+    "viewstripo.email",
+    "my.stripo.email"
    ];
 
     // 3. ЛОГИКА ПРОВЕРКИ (Не меняйте этот блок)
